@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Change to the directory of this script
+cd "$(dirname "$0")"
+
 # Get the latest tag from git
 latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
 
