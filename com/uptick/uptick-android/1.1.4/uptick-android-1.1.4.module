@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.uptick",
+    "module": "uptick-android",
+    "version": "1.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uptick-android-1.1.4.aar",
+          "url": "uptick-android-1.1.4.aar",
+          "size": 358090,
+          "sha512": "73a870a6c54d0b47b535b36a6dde75cdd7c53ff1d9a5c82ff56aa254063989fc90334aa56717fb3eddee58e69e58119228f18c79ff5f65a235585c33cd113951",
+          "sha256": "c4e7acfc5792f0945b712921dac18eba0766e9614008443c1bc9650f966dbeed",
+          "sha1": "fe4a399e0cc03902c888cb41fdf3e00ff2ee1526",
+          "md5": "088076c2641497a6f1722916b63a5dbc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-scalars",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.0.0-alpha.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "5.0.0-alpha.2"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.flexbox",
+          "module": "flexbox",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uptick-android-1.1.4.aar",
+          "url": "uptick-android-1.1.4.aar",
+          "size": 358090,
+          "sha512": "73a870a6c54d0b47b535b36a6dde75cdd7c53ff1d9a5c82ff56aa254063989fc90334aa56717fb3eddee58e69e58119228f18c79ff5f65a235585c33cd113951",
+          "sha256": "c4e7acfc5792f0945b712921dac18eba0766e9614008443c1bc9650f966dbeed",
+          "sha1": "fe4a399e0cc03902c888cb41fdf3e00ff2ee1526",
+          "md5": "088076c2641497a6f1722916b63a5dbc"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "uptick-android-1.1.4-sources.jar",
+          "url": "uptick-android-1.1.4-sources.jar",
+          "size": 125421,
+          "sha512": "35112f2b53f4bbf5965b0c62c0dc48712539d7dd0e4552a25ebf5124fb930ada66f364b9288597c59136025f18f00f45234d0f4f5b5f5e56d616474a8bda405a",
+          "sha256": "01bd97e3d97bfc6448fd92962bbf2b968d933bbf3e55baf72ecd14bee03ae9ae",
+          "sha1": "d3f9f5935374302cdacdb74ad7b9ae58fdb3ed4b",
+          "md5": "60e99595bcbaec868dead26122d40756"
+        }
+      ]
+    }
+  ]
+}
